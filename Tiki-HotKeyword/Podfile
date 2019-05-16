@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+
+  platform :ios, '9.0'
+  use_frameworks!
+
+
+target 'Tiki-HotKeyword' do
+
+    pod 'ObjectMapper'
+    pod 'Alamofire'
+    pod 'SVProgressHUD'
+    pod 'SDWebImage'
+
+  target 'Tiki-HotKeywordTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Tiki-HotKeywordUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
